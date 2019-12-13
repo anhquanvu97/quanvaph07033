@@ -1,0 +1,233 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;padding: 0;
+}
+@font-face{
+	font-family: font1;
+	src:url("../assignment/fonts/Rokkitt-Light.ttf");
+}
+@font-face{
+	font-family: UTM;
+	src:url("../assignment/fonts/UTM Charlotte.ttf");
+}
+#wrapper{
+	width: 1200px;
+	margin: auto;
+}
+nav{
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	height: 50px;
+	font-family: 'font1';
+	line-height: 15px;
+	background-color: #88c8bc;
+	/*background-image: linear-gradient(to right, #88c8bc, #FFF);*/
+	width: 100%;
+}
+nav a{
+	text-decoration: none;
+	color: #000;
+	float: right;
+	margin-left: 20px;
+}
+nav a:hover{
+	color: #88c8bc;
+}
+nav ul li a{
+	text-decoration-line: none;
+	font-size: 18px;
+	color: #000;
+}
+nav ul li{
+	margin-right: 50px;
+	list-style: none;
+	float: left;
+}
+nav ul li a:hover{
+	color: #FFF;
+}
+nav input[type="text"]{
+	width: 255px;
+	height: 30px;
+	font-size: 16px;
+	padding-left: 20px;
+	border-radius: 50px;
+	border: 1px solid lightgray;
+	margin-top: -5px;
+	float: right;
+	font-family: 'font1'
+}
+nav button{
+	width: 28px;
+	height: 28px;
+	background-color: #FFF;
+	border: 0;
+	color: #88c8bc;
+	cursor: pointer;
+	font-size: 15px;
+	margin-right: -250px;
+	margin-top: -4px;
+	float: left;
+	border-radius: 100px;
+	float: right;
+}
+#content{
+	height: 1200px;
+	padding-top: 20px;
+	font-family: 'font1';
+	margin-top: 40px;
+}
+#contact-info{
+	margin-top: 50px;
+}
+.infod {
+	width: 300px;
+	height: 80px;
+	padding: 20px 40px 40px 20px;
+	float: left;
+}
+.infod p{
+	font-size: 20px;
+}
+#form{
+	width: 575px;
+	height: 750px;
+	background-color: whitesmoke;
+	margin-top: 50px;
+	padding: 40px 30px;
+	float: left;
+}
+#form table{
+	font-size: 18px;
+	margin-top: 10px;
+}
+#form table tr{
+	height: 100px;
+}
+#form table input[type="text"]{
+	height: 40px;
+	margin-top: 10px;
+	border: 0;
+	padding-left: 20px;
+	font-family: 'font1';
+	font-size: 16px;
+}
+#form button{
+	width: 140px; 
+	height: 40px;
+	margin-top: 20px;
+	border: 0;
+	border-radius: 20px;
+	background-color: #000;
+	color: #FFF;
+	font-family: 'font1';
+	font-size: 16px;
+}
+#form button:hover{
+	background-color:#88c8bc;
+	
+}
+#form textarea{
+	height:200px;
+	width: 510px;
+	margin-top: 10px;
+	border: 0;
+	padding-left: 20px;
+	font-family: 'font1';
+	font-size: 16px;
+}
+#map{
+	width: 575px;
+	margin-left: 50px;
+	height: 750px;
+	float: left;
+	margin-top: 50px;
+}
+hr{
+	margin-top: 10px;
+}
+footer{
+	height: 250px;
+	background-color: #222;
+	color: #FFF;
+}
+#address{
+	width: 280px;
+	padding-top: 20px;
+	font-family: 'font1';
+	float: left;
+	font-size: 14px;
+	padding-left: 30px;
+	color: #888;
+}
+#address a{
+	text-decoration: none;
+	color: #FFF;
+	font-size: 45px;
+	font-weight: bold;
+	letter-spacing: 10px;
+}
+#address i{
+	color: #888;
+	margin-top: 30px;
+	font-size: 14px;
+}
+#address i:hover{
+	color: #88c8bc;
+}
+#customer{
+	width: 280px;
+	padding-top: 40px;
+	font-family: 'font1';
+	float: left;
+	padding-left: 30px;
+}
+#customer p{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+#customer a{
+	margin-top: 20px;
+	text-decoration: none;
+	font-size: 14px;
+	color: #888;
+}
+#customer a:hover{
+	color: #88c8bc;
+}
+#info{
+	width: 280px;
+	float: left;
+	padding-top: 40px;
+	font-family: 'font1';
+	padding-left: 30px;
+}
+#info p{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+#info a{
+	margin-top: 20px;
+	text-decoration: none;
+	font-size: 14px;
+	color: #888;
+}
+#info a:hover{
+	color: #88c8bc;
+}
+#fb{
+	width: 360px;
+	float: left;
+	padding-top: 20px;
+	font-family: 'font1';
+	padding-left: 30px;
+}
+#pagination {
+  margin-left: 300px;
+  font-family: 'font1';
+  display: inline-block;
+  margin-top: 30px;
+}

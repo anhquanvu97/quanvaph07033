@@ -1,0 +1,266 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+@font-face{
+	font-family: font1;
+	src:url("../assignment/fonts/Rokkitt-Light.ttf");
+}
+@font-face{
+	font-family: UTM;
+	src:url("../assignment/fonts/UTM Charlotte.ttf");
+}
+#wrapper{
+	width: 1200px;
+	margin: auto;
+}
+nav{
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	height: 50px;
+	font-family: 'font1';
+	line-height: 50px;
+	background-color: #88c8bc;
+	/*background-image: linear-gradient(to right, #88c8bc, #FFF);*/
+	width: 100%;
+}
+nav a{
+	text-decoration: none;
+	color: #000;
+	float: right;
+	margin-left: 20px;
+}
+nav a:hover{
+	color: #88c8bc;
+}
+nav ul li a{
+	text-decoration-line: none;
+	font-size: 18px;
+	color: #000;
+}
+nav ul li{
+	margin-right: 50px;
+	list-style: none;
+	float: left;
+}
+nav ul li a:hover{
+	color: #FFF;
+}
+nav input[type="text"]{
+	width: 255px;
+	height: 30px;
+	font-size: 16px;
+	padding-left: 20px;
+	border-radius: 50px;
+	border: 1px solid lightgray;
+	margin-top: 10px;
+	float: right;
+	font-family: 'font1'
+}
+nav button{
+	width: 28px;
+	height: 28px;
+	background-color: #FFF;
+	border: 0;
+	color: #88c8bc;
+	cursor: pointer;
+	font-size: 15px;
+	margin-right: -250px;
+	margin-top: 11px;
+	float: left;
+	border-radius: 100px;
+	float: right;
+}
+#content{
+	height: auto;
+	margin-bottom: 10px;
+	font-family: 'font1';
+	margin-top: 80px;
+}
+#anh{
+	width: 700px;
+	float: left;
+	margin-right: 50px;
+}
+#anh img{
+	width: 700px;
+	height: 600px;
+	margin-top: 40px;
+	border: 1px solid lightgray;
+	float: left;
+}
+#anh button{
+	display: absolute;
+	width: 14px;
+	height: 14px;
+	border-radius: 100%;
+	border: 0px;
+	background-color: lightgray;
+	margin-left: 360px;
+	margin-right: -350px;
+	cursor: pointer;
+
+}
+#anh button:hover{
+	background-color:#88c8bc; 
+}
+#chitiet{
+	width: 350px;
+	height: 700px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 40px;
+}
+#chitiet a{
+	font-size: 26px;
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+#chitiet p{
+	width: 400px;
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 30px;
+	color: #595959;
+	margin-bottom: 20px;
+}
+#chitiet label{
+	font-size: 18px;
+}
+#chitiet button{
+	width: 40px; height: 40px;
+	color: #FFF;
+	background-color: gray;
+	border: 0px;
+	margin-top: 5px;
+	margin-right: 5px;
+	float: left;
+	font-size: 16px;
+	font-family: 'font1';
+}
+#chitiet button:hover{
+	background-color: #88c8bc;
+}
+#chitiet input[type="button"]{
+	width: 40px; 
+	height: 40px;
+	margin-top: 40px;
+	border: 0px;
+	background-color: lightgray;
+}
+#chitiet input[type="button"]:hover{
+	background-color: #88c8bc;
+}
+#chitiet input[type="number"]{
+	width: 250px; 
+	height: 40px;
+	margin-top: 30px;
+	text-align: center;
+}
+#des button{
+	width: 120px;
+	height: 40px;
+	border: 0px;
+	border-radius: 5px;
+	font-family: 'font1';
+	font-size: 15px;
+}
+#des button.active{
+	background-color: gray;
+	color: #FFF;
+}
+#des button:hover{
+	background-color: gray;
+	color: #FFF;
+}
+#detail{
+	width: 1200px;
+	height: 300px;
+	border: 1px solid lightgray;
+	margin-top: 20px;
+	padding: 30px;
+}
+hr{
+	margin-top: 10px;
+}
+footer{
+	height: 250px;
+	background-color: #222;
+	color: #FFF;
+}
+#address{
+	width: 280px;
+	padding-top: 20px;
+	font-family: 'font1';
+	float: left;
+	font-size: 14px;
+	padding-left: 30px;
+	color: #888;
+}
+#address a{
+	text-decoration: none;
+	color: #FFF;
+	font-size: 45px;
+	font-weight: bold;
+	letter-spacing: 10px;
+}
+#address i{
+	color: #888;
+	margin-top: 30px;
+	font-size: 14px;
+}
+#address i:hover{
+	color: #88c8bc;
+}
+#customer{
+	width: 280px;
+	padding-top: 40px;
+	font-family: 'font1';
+	float: left;
+	padding-left: 30px;
+}
+#customer p{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+#customer a{
+	margin-top: 20px;
+	text-decoration: none;
+	font-size: 14px;
+	color: #888;
+}
+#customer a:hover{
+	color: #88c8bc;
+}
+#info{
+	width: 280px;
+	float: left;
+	padding-top: 40px;
+	font-family: 'font1';
+	padding-left: 30px;
+}
+#info p{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+#info a{
+	margin-top: 20px;
+	text-decoration: none;
+	font-size: 14px;
+	color: #888;
+}
+#info a:hover{
+	color: #88c8bc;
+}
+#fb{
+	width: 360px;
+	float: left;
+	padding-top: 20px;
+	font-family: 'font1';
+	padding-left: 30px;
+}
+#pagination {
+  margin-left: 300px;
+  font-family: 'font1';
+  display: inline-block;
+  margin-top: 30px;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<link rel="stylesheet" type="text/css" href="flexslider.css">
+	<script src="js/index.js"></script>
+	<script type="text/javascript">
+		$(window).load(function() {
+		 $('.flexslider').flexslider({
+		    animation: "slide"
+		  });
+		});
+	</script>t	
+</head>
+<body>
+	<nav>
+		<section id="wrapper">
+			<ul>
+				<li><a style="text-decoration: none;color: #FFF;font-size: 35px;float: left;font-weight: bold;" href="index.html">FASHION</a></li>
+			  	<li><a href="index.html">Home</a></li>	
+			 	<li><a href="#">Discount</a></li>
+			 	<li><a href="#">Blog</a></li>
+			 	<li><a href="#">About</a></li>
+			 	<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<a style="font-size: 16px; color: #FFF;" href="cart.html"><i class="fa fa-shopping-cart" onclick="showCart()"></i> Cart</a>
+			<form>
+			<input id="keyword" type="text" name="" placeholder="Search...">
+			<button type="submit" onclick="search()"><i class="fa fa-search"></i></button>
+			</form>
+		</section>
+	</nav>
+	<section id="wrapper">
+		<div class="flexslider">
+		  <ul class="slides">
+		    <li>
+		      <img src="images/banner1.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/banner2.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/banner3.jpg" />
+		    </li>
+		  </ul>
+		</div>
+	</section>
+	<section id="content">
+		<section id="wrapper">
+			<section id="category">
+				<img src="images/banner-02.jpg" onclick="">
+				<a href="product.html"><div id="chu1">
+					<p style="margin-left: 40px;margin-top: 30px; font-weight: bold;font-size: 26px;">Men</p>
+					<p style="font-size: 18px;margin-left: 40px;margin-top: 5px;">Spring 2019</p>
+				</div>
+				</a>
+				<img src="images/banner-01.jpg">
+				<a href="product.html"><div id="chu2">
+					<p style="margin-left: 40px;margin-top: 30px; font-weight: bold;font-size: 26px">Women</p>
+					<p style="font-size: 18px;margin-left: 40px;margin-top: 5px;">Spring 2019</p>
+				</div>
+				</a>
+				<img src="images/banner-03.jpg">
+				<a href="product.html"><div id="chu3">
+					<p style="margin-left: 40px;margin-top: 30px; font-weight: bold;font-size: 26px;">Accessories</p>
+					<p style="font-size: 18px;margin-left: 40px;margin-top: 5px;">Spring 2019</p>
+				</div>
+				</a>
+			</section>
+			<section id="product">
+				<a href="#" style="text-decoration: none;font-size: 24px;font-family: 'font1';;color:#000;">New Products</a>
+				<hr>
+				<section id="new-prd" class="new-prd">
+				</section>
+			</section>
+		</section>
+	</section>
+	<footer>
+		<section id="wrapper">
+			<section id="address">
+				<a href="#">FAS</a>
+				<br>
+				<i class="fa fa-map-marker"> </i>Ha Noi City  
+				<br>
+				<i class="fa fa-map-marker"> </i>Ho Chi Minh City
+				<br>
+				<i class="fa fa-map-marker"> </i>Da Nang City
+			</section>
+			<section id="customer">
+				<p>CUSTOMER CARE</p>
+				<a href="#">CONTACT</a>
+				<br>
+				<br>
+				<a href="#">RETURN/EXCHANGE</a>
+				<br>
+				<br>
+				<a href="#">SPECIAL</a>
+				<br>
+				<br>
+				<a href="#">CUSTOMER SERVICES</a>
+			</section>
+			<section id="info">
+				<p>INFOMATIONS</p>
+				<a href="#">ABOUT US</a>
+				<br>
+				<br>
+				<a href="#">DELIVERY INFORMATION</a>
+				<br>
+				<br>
+				<a href="#">ORDER TRACKING</a>
+				<br>
+				<br>
+				<a href="#">SUPPORT</a>
+			</section>
+			<section id="fb">
+				<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAnh-ng%25E1%25BB%25AF-Nopain-Nogain-290312558248703%2F&tabs=timeline&width=300&height=300&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1823931271059785" width="360" height="210" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+			</section>
+		</section>
+	</footer>
+</body>
+</html> 
